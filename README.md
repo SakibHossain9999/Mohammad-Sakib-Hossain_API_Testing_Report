@@ -1,5 +1,3 @@
-# Mohammad-Sakib-Hossain_API_Testing_Report
-
 # API Testing Report Repository
 
 Welcome to the API Testing Report repository! This repository contains documentation and reports related to the testing of our API endpoints. The purpose of this repository is to maintain a record of API test scenarios, results, and recommendations.
