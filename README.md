@@ -1,6 +1,6 @@
 # API Testing Report Repository
 
-Welcome to the API Testing Report repository! This repository contains documentation and reports related to the testing of our API endpoints. The purpose of this repository is to maintain a record of API test scenarios, results, and recommendations.
+Welcome to the API Testing Report repository! This repository contains documentation and reports related to the testing of API of https://restful-booker.herokuapp.com/booking/. The purpose of this repository is to maintain a record of API test scenarios, results, and recommendations.
 
 ## Table of Contents
 
@@ -108,7 +108,6 @@ Include any additional information that supports the API testing report, such as
 This repository is licensed under the [MIT License](LICENSE).
 
 ---
-
 Feel free to clone this repository and adapt the structure for your own API testing efforts. If you have any questions or suggestions, please don't hesitate to open an issue or reach out to us.
 
 Happy testing!
