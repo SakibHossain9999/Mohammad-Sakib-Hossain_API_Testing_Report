@@ -1,31 +1,41 @@
-# API Testing Report Repository
-
-Welcome to the API Testing Report repository! This repository contains documentation and reports related to the testing of API of https://restful-booker.herokuapp.com/booking/. The purpose of this repository is to maintain a record of API test scenarios, results, and recommendations.
-
 ## Table of Contents
 
 - [Introduction](#introduction)
 - [Environment Setup](#environment-setup)
 - [Test Scenarios](#test-scenarios)
 - [Test Results](#test-results)
-- [Recommendations](#recommendations)
 - [Conclusion](#conclusion)
 - [Appendices](#appendices)
 
 ## Introduction
 
-This section provides an overview of the API testing process, the purpose of the tests, and the scope of the testing effort.
+Welcome to the API Testing Report repository! This repository contains documentation and reports related to the testing of API of [api](https://restful-booker.herokuapp.com). This API tesing was done as an assignment for the Online Course: Complete SQA (Manual and Automation). 
+
+Organization: [Bug Resistance](https://bugresistance.com/)
+
+Course Instructor: Mohoshi Haque
 
 ## Environment Setup
 
-Describe the environment setup required to perform API testing. Include information about the tools, software, and dependencies needed to execute the test scenarios.
+API Testing: https://www.postman.com/
+
+Web Browser : Google Chrome Version 115.0.5790.173 (Official Build) (64-bit)
+
+Report Generation:
+  1. Download the Postman Collection.
+  2. Download the Postman Environment.
+  3. Install Node.js from the [website](https://nodejs.org/en)
+  4. Install Newman by Opening the Command Promt of our Device and run the command: npm install -g newman
+  5. Open command promt in the directory where you saved the collection and environment file and run the command: newman run [name of your collection including the extension] -e [name of your environment including the extension] -r cli,htmlextra
+
+
 
 ## Test Scenarios
 
 ###  Test Scenario 1: Customer Flight Booking.
 
 - **Description:** Test the customer flight booking functionality.
-- **Endpoint:** `/api/register`
+- **Endpoint:** `/api/booking/`
 - **HTTP Method:** POST
 - **Test Steps:**
   1. Send a POST request with valid user flight booking data.
@@ -36,7 +46,7 @@ Describe the environment setup required to perform API testing. Include informat
 ###  Test Scenario 2: Check Customer Flight Booking Details.
 
 - **Description:** Test to check the customer flight booking details functionality.
-- **Endpoint:** `/api/register`
+- **Endpoint:** `/api/booking/userid`
 - **HTTP Method:** GET
 - **Test Steps:**
   1. Send a GET request with valid user id.
@@ -47,7 +57,7 @@ Describe the environment setup required to perform API testing. Include informat
 ###  Test Scenario 3: Customer Flight Booking Authentication.
 
 - **Description:** Test the customer flight booking authentication functionality.
-- **Endpoint:** `/api/register`
+- **Endpoint:** `/api/auth`
 - **HTTP Method:** POST
 - **Test Steps:**
   1. Send a POST request with valid username and password.
@@ -58,7 +68,7 @@ Describe the environment setup required to perform API testing. Include informat
 ###  Test Scenario 4: Customer Flight Booking Details Full Update.
 
 - **Description:** Test the customer flight booking details full update functionality.
-- **Endpoint:** `/api/register`
+- **Endpoint:** `/api/booking/userid`
 - **HTTP Method:** PUT
 - **Test Steps:**
   1. Send a PUT request with all the updated valid user flight booking data.
@@ -69,7 +79,7 @@ Describe the environment setup required to perform API testing. Include informat
 Test Scenario 5: Customer Flight Booking Details Partial Update.
 
 - **Description:** Test the customer flight booking details partial update functionality.
-- **Endpoint:** `/api/register`
+- **Endpoint:** `/api/booking/userid`
 - **HTTP Method:** PATCH
 - **Test Steps:**
   1. Send a PATCH request with only the updated valid user flight booking data.
@@ -80,7 +90,7 @@ Test Scenario 5: Customer Flight Booking Details Partial Update.
   Test Scenario 6: Customer Flight Booking Details Delete.
 
 - **Description:** Test the customer flight booking details delete functionality.
-- **Endpoint:** `/api/register`
+- **Endpoint:** `/api/booking/userid`
 - **HTTP Method:** DELETE
 - **Test Steps:**
   1. Send a DELETE request with valid user id.
@@ -108,6 +118,6 @@ Include any additional information that supports the API testing report, such as
 This repository is licensed under the [MIT License](LICENSE).
 
 ---
-Feel free to clone this repository and adapt the structure for your own API testing efforts. If you have any questions or suggestions, please don't hesitate to open an issue or reach out to us.
+Feel free to clone this repository and adapt the structure for your own API testing efforts. If you have any questions or suggestions, please don't hesitate to open an issue or reach out to me.
 
 Happy testing!
