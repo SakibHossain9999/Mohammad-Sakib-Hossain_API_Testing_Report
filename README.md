@@ -92,18 +92,10 @@ Test Scenario 5: Customer Flight Booking Details Partial Update.
 
 ## Test Results
 
-Summarize the results of the executed test scenarios.
-
-- Total Test Scenarios: [Total number of test scenarios]
-- Passed: [Number of scenarios that passed]
-- Failed: [Number of scenarios that failed]
-- Skipped: [Number of scenarios that were skipped, if any]
-
-Provide details on any failed scenarios, including error messages, screenshots, and relevant information for debugging.
-
-## Recommendations
-
-Based on the test results, provide recommendations for improvements or optimizations in the API endpoints or testing process.
+- Total Test Scenarios: [6]
+- Passed: [6]
+- Failed: [0]
+- Skipped: [0]
 
 ## Conclusion
 
