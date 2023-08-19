@@ -24,14 +24,6 @@ Describe the environment setup required to perform API testing. Include informat
 
 ## Test Scenarios
 
-List and describe the various test scenarios that were executed during API testing. Each scenario should include:
-
-- Scenario description
-- Endpoint tested
-- HTTP method used
-- Test steps
-- Expected outcome
-
 ###  Test Scenario 1: Customer Flight Booking.
 
 - **Description:** Test the customer flight booking functionality.
